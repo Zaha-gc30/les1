@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="body_1">
+		<h1>CREDIT CARD DETAILS</h1>
+		<form action="#">
+			<label for="CardNumber">Card Number</label>
+			<input type="text" name="CardNumber" maxlength="19" method="post" required pattern="[0-9]" placeholder="1111 2222 3333 4444">
+			<div class="form_1">
+				<label for="Card">Name on Card</label>
+				<input type="text" name="Card" maxlength="15" method="post" required pattern="[a-z]" placeholder="Name Surname">
+			</div>
+			<div class="form_2">
+				<label for="month">Expity Data</label>
+				<input class="month1" type="text" name="month" maxlength="2" method="post" required pattern="0-9" placeholder="Month">
+				<label for="month">Expity Data</label>
+				<input class="year1" type="text" name="year" maxlength="4" method="post" required pattern="0-9" placeholder="Year">
+				<label for="CVV">CVV/CVN</label>
+				<input type="password" name="CVV" maxlength="3" required method="post" pattern="0-9" placeholder="CVV/CVN">
+			</div>
+		 </form>
+	</div>
+</body>
+</html>

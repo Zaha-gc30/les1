@@ -1,0 +1,108 @@
+body{
+	width: 100%;
+	margin: 0 auto;
+	font-family:"Arial"; 
+}
+.body_1{
+	position: absolute;
+	left: 30%;
+	top:10%;
+	width: 700px;
+	height: 485px;
+	background-color: #9FCDCDFF;
+	border-radius: 25px;
+	background-image: url(../img/moon_flag.png);
+	background-repeat: no-repeat;
+	background-size: 317px ;
+	background-position-x: 470px;
+	background-position-y: 240px;
+}
+h1{
+	font-size: 25px;
+	width: 500px;
+	color: #FFF;
+	margin: 40px -30px;
+	padding: 10px 45px;
+	background-color: #DB6423FF;
+}
+label{
+	position: absolute;
+	left: 5%;
+	font-size: 17px;
+	color: #729C9EFF;
+}
+input[type="text"]{
+	position: absolute;
+	left: 5%;
+	top: 35%;
+	width: 400px;
+	height: 35px;
+	font-size: 20px;
+	color: #729C9EFF;
+	border-style: none;
+	border-bottom-style: solid;
+	border-color: #729C9EFF;
+	background-color: #A9D2D2FF;
+}
+.form_1{
+	position: relative;
+	height: 100px;
+	top:100px;
+}
+.form_2{
+	position: relative;
+	height: 100px;
+	top:100px;
+}
+input[type="text"]{
+	position: absolute;
+	left: 5%;
+	top: 35%;
+	width: 400px;
+	height: 35px;
+	font-size: 20px;
+	color: #729C9EFF;
+	border-style: none;
+	border-bottom-style: solid;
+	border-color: #729C9EFF;
+	background-color: #A9D2D2FF;
+}
+.month1{
+	position: absolute;
+	left: 5%;
+	top: 35%;
+	width: 120px !important;
+	height: 35px !important;
+}
+.year1{
+	position: absolute;
+	left: 25% !important;
+	top: 35%;
+	width: 120px !important;
+	height: 35px !important;
+}
+input[type="password"]{
+	position: absolute;
+	left: 45%;
+	top: 35%;
+	width: 120px;
+	height: 35px;
+	font-size: 20px;
+	color: #729C9EFF;
+	border-style: none;
+	border-bottom-style: solid;
+	border-color: #729C9EFF;
+	background-color: #A9D2D2FF;
+}
+input:hover{
+	background-color: #C9E2E2FF;
+	cursor: pointer;
+}
+input:focus{
+	background-color: #C9E2E2FF;
+	cursor: text;
+}
+.form_2 label:nth-child(5){
+	position: absolute;
+	left: 45%;
+}
