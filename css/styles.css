@@ -106,3 +106,8 @@ input:focus{
 	position: absolute;
 	left: 45%;
 }
+
+
+p{
+	color: green;
+}
